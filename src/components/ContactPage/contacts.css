@@ -1,0 +1,146 @@
+#head {
+    margin-top: 170px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#contacts {
+    background: #f4faf9;
+    padding-bottom: 100px;
+}
+
+#contacts .container {
+    padding-top: 100px;
+}
+
+#contacts img {
+    border-radius: 20px;
+}
+
+#contacts .left {
+    padding: 0 20px 20px 20px;
+    margin-top: -50px;
+}
+
+#contacts .form {
+    margin-top: 50px;
+}
+
+#contacts input {
+    margin-bottom: 20px;
+    border: 1px solid #dcdcdc;
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    color: #868686;
+    background: white;
+}
+
+#contacts textarea {
+    background: white;
+    font-size: 18px;
+    border-radius: 10px;
+    color: #868686;
+    border: 1px solid #dcdcdc;
+    width: 105%;
+    height: 150px;
+    margin-left: -10px;
+}
+
+#contacts .btn-information {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px;
+    width: 100%;
+    border-radius: 30px;
+    color: #fff;
+    background: #C05131;
+}
+
+#contacts .btn-information:hover {
+    background: transparent;
+    border-color: #C05131;
+    color: #C05131;
+}
+
+#icons {
+    background: #f4faf9;
+}
+
+#icons .icon h5 {
+    color: #686868;
+}
+
+#icons .icon p {
+    color: #666666
+}
+
+#icons .icon i {
+    background: #56a99e;
+    color: white;
+    font-size: 40px;
+    border-radius: 40px;
+    padding: 15px 25px;
+    margin-bottom: 50px;
+}
+
+#icons .icon .equal {
+    background: #56a99e;
+    color: white;
+    font-size: 40px;
+    border-radius: 40px;
+    padding: 15px 15px;
+    margin-bottom: 50px;
+}
+
+@media(max-width: 1199px) {
+    #contacts iframe {
+        margin-left: -20px;
+    }
+    #contacts .recaptcha {
+        margin-left: 10px;
+    }
+}
+
+@media(max-width: 991px) {
+    #contacts iframe {
+        width: 750px;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 767px) {
+    #contacts iframe {
+        width: 550px;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 575px) {
+    #contacts iframe {
+        width: 400px;
+        height: 400px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+    #contacts .recaptcha {
+        margin-left: -20px;
+    }
+}
+
+@media(max-width: 450px) {
+    #contacts iframe {
+        width: 300px;
+        height: 400px;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 420px) {
+    #contacts iframe {
+        margin-left: 15px;
+    }
+}

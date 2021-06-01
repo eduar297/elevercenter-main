@@ -1,0 +1,124 @@
+#rent {
+    margin-top: 100px;
+    text-align: center;
+    color: #555555;
+}
+
+#rent .table {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 35px;
+    border: 2px solid #279989;
+}
+
+#rent .thead {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #279989;
+    color: white;
+    padding-left: 50px;
+    padding-top: 20px;
+    text-align: start;
+}
+
+#rent .body {
+    padding-left: 50px;
+    padding-top: 20px;
+    text-align: start;
+}
+
+#rent .btn-rent {
+    color: #279989;
+    border: solid 1px #279989;
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+@media(max-width: 1200px) {
+    #rent .btn-rent {
+        margin-left: -30px;
+    }
+}
+
+#rent .down {
+    margin-bottom: 10px;
+}
+
+#rent .mobile-table {
+    margin-top: 100px;
+    border: 1px solid #279989;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#rent .mobile-header {
+    background: #64b1a6;
+    color: white;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 30px;
+}
+
+#rent .mobile-btn {
+    text-align: center;
+    color: #279989;
+    border: solid 1px #279989;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    width: 100%;
+    margin: 20px;
+}
+
+#rent .left {
+    margin-left: -100px;
+    padding: 20px;
+}
+
+#rent .right {
+    margin-left: 100px;
+    padding: 20px;
+    color: black;
+}
+
+#rent .divider {
+    margin-bottom: 100px;
+}
+
+@media(max-width: 767px) {
+    #rent .left {
+        margin-left: 0px;
+    }
+    #rent .right {
+        margin-left: 0px;
+    }
+}
+
+@media(max-width: 575px) {
+    #rent .mobile-table {
+        width: 350px;
+        margin-left: 80px;
+    }
+}
+
+@media(max-width: 525px) {
+    #rent .mobile-table {
+        margin-left: 50px;
+    }
+}
+
+@media(max-width: 480px) {
+    #rent .mobile-table {
+        margin-left: 20px;
+    }
+}
+
+@media(max-width: 400px) {
+    #rent .mobile-table {
+        margin-left: -10px;
+    }
+}

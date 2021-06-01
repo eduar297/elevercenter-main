@@ -1,0 +1,14 @@
+#admin-head {
+    margin-top: 70px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#admin {
+    background: #f4faf9;
+    padding-bottom: 100px;
+}
+
+#admin .container {
+    padding-top: 100px;
+}

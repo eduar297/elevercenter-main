@@ -1,0 +1,32 @@
+#opinions {
+    background: #f4faf9;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+#opinions .texts {
+    margin-top: 50px;
+    padding: 30px;
+}
+
+#opinions .opinion {
+    color: #5b5b5b;
+}
+
+#opinions .puntations {
+    color: #2f2f2f;
+}
+
+#opinions i {
+    color: #cb6f55;
+    font-size: 20px;
+}
+
+#opinions .name-puntuacion {
+    text-align: start;
+}
+
+#opinions .text {
+    text-align: start;
+}

@@ -1,0 +1,41 @@
+#opening {
+    background: #f4faf9;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#opening .container {
+    margin-top: 100px;
+    background: white;
+    padding: 50px;
+}
+
+#opening h5 {
+    margin-top: -5px;
+}
+
+#opening hr {
+    background: #64b1a6;
+    height: 2px;
+    color: #64b1a6;
+    text-align: center;
+    width: 100px;
+}
+
+#opening .vertical-line-left {
+    border-right: 1px solid #64b1a6;
+}
+
+#opening .vertical-line-rigth {
+    border-left: 1px solid #64b1a6;
+}
+
+#opening .vertical-line-down {
+    border-bottom: 1px solid #64b1a6;
+    padding-bottom: 20px;
+}
+
+#opening .vertical-line-up {
+    border-top: 1px solid #64b1a6;
+    padding-top: 40px;
+}

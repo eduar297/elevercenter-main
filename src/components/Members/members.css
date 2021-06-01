@@ -1,0 +1,114 @@
+#members {
+    padding: 80px;
+    background: #f4faf9;
+    text-align: center;
+}
+
+#members .members {
+    margin-top: 80px;
+}
+
+#members .item {
+    background: white;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 16px 24px 2px rgba(0, 0, 0, 0.14)
+}
+
+#members i {
+    padding: 5px 10px;
+    border-radius: 20px;
+    background: #d8d8d8;
+    color: black;
+}
+
+#members a {
+    color: #279989;
+    border-bottom: 1px solid #279989;
+}
+
+#members p {
+    color: #555555;
+}
+
+#members .btn-get {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 20px 60px;
+    border-radius: 30px;
+    transition: 0.5s;
+    margin-top: 30px;
+    color: #fff;
+    background: #C05131;
+    border: 2px solid #C05131;
+    margin-bottom: 10px;
+}
+
+#members .btn-get:hover {
+    background: transparent;
+    border-color: #C05131;
+    color: #C05131;
+}
+
+@media(max-width: 1072px) {
+    #members .item {
+        margin: 10px;
+        height: 450px;
+    }
+    #members .btn-get {
+        padding: 10px 15px;
+    }
+}
+
+@media(max-width: 830px) {
+    #members .item {
+        margin: 10px;
+        height: 520px;
+    }
+    #members .btn-get {
+        padding: 10px;
+    }
+}
+
+@media(max-width: 767px) {
+    #members .item {
+        height: 400px;
+    }
+    #members .btn-get {
+        padding: 20px;
+    }
+}
+
+@media(max-width: 625px) {
+    #members .item {
+        width: 400px;
+        height: 500px;
+    }
+}
+
+@media(max-width: 550px) {
+    #members .item {
+        margin-left: -70px;
+    }
+}
+
+@media(max-width: 445px) {
+    #members .item {
+        width: 300px;
+        margin-left: -30px;
+    }
+}
+
+@media(max-width: 420px) {
+    #members .item {
+        margin-left: -40px;
+    }
+}
+
+@media(max-width: 390px) {
+    #members .item {
+        margin-left: -60px;
+    }
+}

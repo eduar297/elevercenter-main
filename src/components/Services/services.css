@@ -1,0 +1,24 @@
+#services {
+    padding: 30px;
+    background: #f4faf9;
+    text-align: center;
+}
+
+#services i {
+    color: #279989;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+#services .more-services {
+    text-align: center;
+    margin-top: 30px;
+    color: #279989;
+    text-decoration-line: underline;
+}
+
+#services .more-services i {
+    font-size: 25px;
+    margin-bottom: 50px;
+}

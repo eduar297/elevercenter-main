@@ -1,0 +1,42 @@
+#benefits .text {
+    text-align: start;
+    margin-top: 100px;
+    padding-left: 150px;
+}
+
+@media (max-width: 1200px) {
+    #benefits .text {
+        text-align: start;
+        margin-top: 100px;
+        padding-left: 100px;
+    }
+}
+
+@media (max-width: 900px) {
+    #benefits .text {
+        text-align: start;
+        margin-top: 100px;
+        padding-left: 40px;
+    }
+}
+
+#benefits .text-s {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#benefits .text h5 {
+    color: #5b5b5b;
+    text-align: start;
+}
+
+#benefits .divider {
+    height: 20px;
+}
+
+#benefits .img {
+    height: 80vh;
+    background: url("../../assets/img/benefits.png") top center;
+    background-size: cover;
+    border-bottom-left-radius: 100px;
+}

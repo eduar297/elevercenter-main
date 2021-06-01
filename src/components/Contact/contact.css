@@ -1,0 +1,67 @@
+#contact {
+    background: #64b1a6;
+    padding-bottom: 100px;
+}
+
+#contact .container {
+    padding-top: 100px;
+}
+
+#contact img {
+    border-radius: 20px;
+}
+
+#contact .left {
+    padding: 0 20px 20px 20px;
+}
+
+@media (max-width: 1200px) {
+    #contact .frame {
+        width: 400px;
+        height: 600px;
+        padding-bottom: 100px;
+    }
+}
+
+@media (max-width: 991px) {
+    #contact .frame {
+        width: 700px;
+        height: 500px;
+    }
+}
+
+#contact h1 {
+    color: white;
+}
+
+#contact .form {
+    margin-top: 50px;
+}
+
+#contact input {
+    background: transparent;
+    border-radius: 0;
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+#contact textarea {
+    background: transparent;
+    border-radius: 0;
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+#contact .btn-information {
+    background: white;
+    color: #64b1a6;
+    text-align: center;
+    border-radius: 30px;
+    padding: 10px 40px 10px 40px;
+    font-size: 20px;
+    margin-top: 10px;
+}

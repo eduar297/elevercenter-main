@@ -1,0 +1,130 @@
+#n-list {
+    background: #f4faf9;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#n-list img {
+    border-radius: 20px;
+    width: 50%;
+}
+
+#n-list .text {
+    color: black;
+}
+
+#n-list .create-news {
+    margin-top: 20px;
+}
+
+#n-list .form {
+    width: 50%;
+    margin-left: 25%;
+}
+
+#n-list .btn-new-news {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px;
+    width: 50%;
+    border-radius: 30px;
+    color: #fff;
+    background: #279989;
+}
+
+#n-list .btn-new-news:hover {
+    background: transparent;
+    border-color: #279989;
+    color: #279989;
+}
+
+#n-list .btn-information {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px;
+    width: 100%;
+    border-radius: 30px;
+    color: #fff;
+    background: #C05131;
+}
+
+#n-list .btn-information:hover {
+    background: transparent;
+    border-color: #C05131;
+    color: #C05131;
+}
+
+#n-list .n-list {
+    margin-top: 50px;
+}
+
+#n-list .item.h1 {
+    margin-bottom: 10px;
+}
+
+#n-list .item .info {
+    margin-top: 20px;
+}
+
+#n-list .item h5 {
+    color: black;
+}
+
+#n-list .item p {
+    margin-top: -10px;
+}
+
+#n-list .item {
+    color: #279989;
+    background: white;
+    border-radius: 10px;
+    padding: 30px 30px 25px 30px;
+    margin-bottom: 20px;
+    margin-right: -10px;
+}
+
+#n-list .bordered:hover {
+    border: 2px solid #279989;
+}
+
+#n-list .item .buttons {
+    margin-top: 10px;
+}
+
+#n-list .item .validate {
+    width: 100%;
+    margin: 2px;
+    border-radius: 30px;
+    color: white;
+    background: #279989;
+    border: 2px solid #279989;
+}
+
+#n-list .item .delete {
+    width: 100%;
+    margin: 2px;
+    border-radius: 30px;
+    color: white;
+    background: #C05131;
+    border: 2px solid #C05131;
+}
+
+#n-list .item .validate:hover {
+    color: #279989;
+    background: white;
+    border: 2px solid #279989;
+}
+
+#n-list .item .delete:hover {
+    color: #C05131;
+    background: white;
+    border: 2px solid #C05131;
+}
+
+#n-list .aumented {
+    margin-top: 10px;
+}

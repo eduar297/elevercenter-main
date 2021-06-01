@@ -1,0 +1,279 @@
+    #specialties {
+        margin-top: 200px;
+        text-align: center;
+    }
+    
+    #specialties h1 {
+        color: #2c2c2c;
+    }
+    
+    #specialties h5 {
+        color: #555555;
+    }
+    
+    #specialties .list {
+        margin-top: 50px;
+        padding: 10px;
+        width: 100%;
+        background: #f4faf9;
+    }
+    
+    #specialties a {
+        color: #279989;
+    }
+    
+    #specialties .cats {
+        margin-top: 50px;
+    }
+    
+    #specialties .item {
+        color: #279989;
+        background: #b8dad4;
+        padding: 10px;
+        text-align: start;
+        cursor: pointer;
+        margin-left: -10px;
+        height: 140px;
+        margin-bottom: 20px;
+    }
+    
+    #specialties .item-first {
+        color: #279989;
+        background: #b8dad4;
+        padding: 10px;
+        text-align: start;
+        cursor: pointer;
+        margin-bottom: 5px;
+        height: 140px;
+    }
+    
+    #specialties .item .icon {
+        margin-top: 50px;
+        text-align: end;
+    }
+    
+    #specialties .item.lg .icon {
+        margin-top: 20px;
+        text-align: end;
+    }
+    
+    #specialties .item-first .icon {
+        margin-top: 50px;
+        text-align: end;
+    }
+    
+    #list {
+        margin-top: 100px;
+        padding: 80px;
+        background: #f4faf9;
+        text-align: center;
+    }
+    
+    #list .container {
+        margin-top: 50px;
+    }
+    
+    #list .back {
+        text-align: end;
+        color: #279989;
+        margin-top: -40px;
+    }
+    
+    #list .list {
+        margin-top: 50px;
+    }
+    
+    @media(max-width: 410px) {
+        #list .list {
+            width: 300px;
+            margin-left: -60px;
+        }
+    }
+    
+    #list .item h5 {
+        color: black;
+    }
+    
+    #list p {
+        cursor: pointer;
+    }
+    
+    #list .item p {
+        margin-top: -10px;
+    }
+    
+    #list .item {
+        color: #279989;
+        background: white;
+        border-radius: 10px;
+        padding: 30px 30px 25px 30px;
+        margin-bottom: 20px;
+        margin-right: -10px;
+    }
+    
+    #list .bordered:hover {
+        border: 2px solid #279989;
+    }
+    
+    #list .item .icon {
+        margin-top: 40px;
+        text-align: end;
+    }
+    
+    #info {
+        margin-top: 200px;
+    }
+    
+    #info .name {
+        text-align: start;
+    }
+    
+    #info h5 {
+        color: #279989;
+    }
+    
+    #info .icons {
+        text-align: end;
+    }
+    
+    #info i {
+        background: #279989;
+        color: white;
+        border-radius: 30px;
+        padding: 10px;
+    }
+    
+    #info .fc {
+        padding: 10px 15px 10px 15px;
+    }
+    
+    #description {
+        margin-top: 50px;
+        background: #f4faf9;
+    }
+    
+    #description .text {
+        text-align: start;
+        padding-top: 50px;
+    }
+    
+    #description .text h4 {
+        color: #2c2c20;
+    }
+    
+    #description .text h5 {
+        color: #555555;
+    }
+    
+    #description ul {
+        margin-left: -20px;
+    }
+    
+    #description li {
+        padding: 5px;
+        font-size: 18px;
+    }
+    
+    #description .btn-get {
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 1px;
+        display: inline-block;
+        padding: 20px 100px;
+        border-radius: 30px;
+        transition: 0.5s;
+        margin-top: 30px;
+        color: #fff;
+        background: #C05131;
+        border: 2px solid #C05131;
+        margin-bottom: 100px;
+    }
+    
+    #description .btn-get:hover {
+        background: transparent;
+        border-color: #C05131;
+        color: #C05131;
+    }
+    
+    @media(max-width: 1199px) {
+        #specialties .md .icon {
+            margin-top: 20px;
+        }
+    }
+    
+    @media(max-width: 991px) {
+        #specialties .item {
+            margin-left: 0px;
+            height: 140px;
+            margin-bottom: 25px;
+        }
+        #specialties .item-first {
+            margin-bottom: 25px;
+            height: 140px;
+        }
+        #specialties .sm .icon {
+            margin-top: 20px;
+        }
+    }
+    
+    @media(max-width: 767px) {
+        #specialties .item,
+        #specialties .item-first {
+            height: 100px;
+        }
+        #specialties .item-first .icon,
+        #specialties .item .icon {
+            margin-top: -40px;
+            margin-right: 20px;
+        }
+        #specialties .item .cat-text,
+        #specialties .item .cat-text-max,
+        #specialties .item .cat-text-min,
+        #specialties .item-first .cat-text {
+            font-size: 30px;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        #specialties .lg .cat-text {
+            font-size: 25px;
+        }
+        #specialties .item.lg .icon {
+            margin-top: -35px;
+        }
+        #info .icons {
+            text-align: start;
+            margin-top: 20px;
+        }
+    }
+    
+    @media(max-width:1080px) {
+        #list .back {
+            text-align: center;
+            margin-top: 20px;
+        }
+    }
+    
+    #specialties .item .cat-text-min {
+        display: none;
+    }
+    
+    @media(max-width: 550px) {
+        #specialties .item-first .icon {
+            margin-top: -30px;
+        }
+        #specialties .item .icon {
+            margin-top: -30px;
+        }
+        #specialties .item .cat-text,
+        #specialties .item-first .cat-text {
+            font-size: 22px;
+        }
+        #specialties .item .cat-text-max {
+            display: none;
+        }
+        #specialties .item .cat-text-min {
+            display: block;
+            margin-top: 0px;
+            font-size: 22px;
+        }
+    }

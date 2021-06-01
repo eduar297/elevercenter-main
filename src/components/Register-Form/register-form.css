@@ -1,0 +1,106 @@
+#register {
+    background: #f4faf9;
+    margin-top: 170px;
+    padding-top: 100px;
+}
+
+#register p {
+    color: #555555;
+}
+
+#register a {
+    color: #279989;
+    text-decoration-line: underline;
+}
+
+#register .form {
+    background: white;
+    padding: 50px 100px;
+    border-radius: 10px;
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 16px 24px 2px rgba(0, 0, 0, 0.14)
+}
+
+@media(max-width: 625px) {
+    #register .form {
+        padding: 20px;
+    }
+}
+
+#register p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#register input {
+    margin-bottom: 20px;
+    border: 1px solid #555555;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    width: 100%;
+}
+
+#register button {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 10px 60px;
+    border-radius: 30px;
+    transition: 0.5s;
+    margin-top: 30px;
+    color: #fff;
+    background: #C05131;
+    border: 2px solid #C05131;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#register button:hover {
+    background: transparent;
+    border-color: #C05131;
+    color: #C05131;
+}
+
+#register .radio {
+    text-align: center;
+    background: #f7f7f7;
+}
+
+#register .label {
+    margin-left: -50px;
+}
+
+#register .left {
+    text-align: center;
+    border-right: 1px solid white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-top: 10px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    color: #b1b1b1;
+}
+
+#register .rigth {
+    text-align: center;
+    border-left: 1px solid white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: 10px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    color: #b1b1b1;
+}
+
+#register .select {
+    margin-bottom: 20px;
+}
+
+@media(max-width: 1200px) {
+    #register .label {
+        margin-left: -30px;
+    }
+}
+
+#register .active {
+    color: #279989;
+}

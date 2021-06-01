@@ -1,0 +1,76 @@
+#p-list {
+    background: #f4faf9;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#p-list .p-list {
+    margin-top: 50px;
+}
+
+#p-list .item.h1 {
+    margin-bottom: 10px;
+}
+
+#p-list .item .info {
+    margin-top: 20px;
+}
+
+#p-list .item h5 {
+    color: black;
+}
+
+#p-list .item p {
+    margin-top: -10px;
+}
+
+#p-list .item {
+    color: #279989;
+    background: white;
+    border-radius: 10px;
+    padding: 30px 30px 25px 30px;
+    margin-bottom: 20px;
+    margin-right: -10px;
+}
+
+#p-list .bordered:hover {
+    border: 2px solid #279989;
+}
+
+#p-list .item .buttons {
+    margin-top: 10px;
+}
+
+#p-list .item .validate {
+    width: 100%;
+    margin: 2px;
+    border-radius: 30px;
+    color: white;
+    background: #279989;
+    border: 2px solid #279989;
+}
+
+#p-list .item .delete {
+    width: 100%;
+    margin: 2px;
+    border-radius: 30px;
+    color: white;
+    background: #C05131;
+    border: 2px solid #C05131;
+}
+
+#p-list .item .validate:hover {
+    color: #279989;
+    background: white;
+    border: 2px solid #279989;
+}
+
+#p-list .item .delete:hover {
+    color: #C05131;
+    background: white;
+    border: 2px solid #C05131;
+}
+
+#p-list .aumented {
+    margin-top: 10px;
+}
